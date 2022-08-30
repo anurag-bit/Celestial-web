@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Container>
       <div className='flex flex-col items-center justify-center inset-0'>
-        <BigText slides={['Celestial PharmaTechs`', '[/^]', 'BLOG']} />
+        <BigText slides={['Celestial', 'PharmaTech', 'BLOG']} />
       </div>
     </Container>
   )
