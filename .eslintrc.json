@@ -14,6 +14,9 @@
     "import/order": [
       "error",
       {
+        "endOfLine": "auto"
+      },
+      {
         "groups": ["builtin", "external", "internal"],
         "pathGroups": [
           {

@@ -17,8 +17,8 @@ export default function Container(props: any) {
   const router = useRouter()
 
   const meta = {
-    title: 'Template name',
-    description: 'Template description',
+    title: 'Celestial PharmaTech🌟|BLOG📜.',
+    description: 'Celestial PharmaTech"s official Blog!🗞️',
     image:
       'https://cdn.discordapp.com/attachments/797485737272541250/893912493255176192/UnicornVectorGradient_7.png',
     type: 'website',
@@ -74,7 +74,7 @@ export default function Container(props: any) {
           </div>
           <div className='flex flex-row items-center space-x-4'>
             <a
-              href='https://github.com/cristicretu/'
+              href='https://github.com/anurag-bit/'
               className='visible'
               target='_blank'
               rel='noreferrer'

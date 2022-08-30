@@ -53,10 +53,12 @@ export default function BigText({ slides }: BigTextProps) {
           )
         })}
         <p className='mt-4 text-2xl tracking-normal sm:text-3xl'>
-          Front-End Template.
+          Relieve, Relive, Re-Love!.
         </p>
         <p className='mt-6 text-lg font-medium tracking-normal text-tertiary'>
-          Edit pages/index.tsx to get started. 🚀
+          Helping your health, so your health helps you staying on track!
+          <br></br>
+          Tips! , Guides, Consultation! 🚀
         </p>
       </div>
     </div>

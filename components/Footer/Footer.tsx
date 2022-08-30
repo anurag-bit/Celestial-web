@@ -1,18 +1,23 @@
 export default function Footer() {
   return (
-    <p className='mx-auto my-16 text-center text-quaternary'>
-      Crafted with care by
-      <a
-        className='ml-1 text-secondary hover:text-primary group'
-        href='https://cretu.dev'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        Cristian Crețu
-        <span className='ml-1 transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100'>
-          ↗
-        </span>
-      </a>
-    </p>
+    <footer className='flex flex-col justify-center items-center max-w-2xl mx-auto w-full  px-2 sm:px-2 md:px-0 '>
+      <hr className='w-full border-1 border-gray-200 dark:border-gray-800 mb-8' />
+      <p className='text-gray-700 dark:text-gray-300 text-opacity-90 mt-8 text-xs px-8 text-center'>
+        Created with &hearts; by{' '}
+        <a
+          className='underline text-black dark:text-white font-semibold'
+          href='https://anurag4078.vercel.app'
+        >
+          Anurag Singh
+        </a>
+        . Deployed with{' '}
+        <a
+          className='underline text-black dark:text-white  font-semibold'
+          href='https://vercel.com'
+        >
+          ▲ Vercel
+        </a>
+      </p>
+    </footer>
   )
 }
