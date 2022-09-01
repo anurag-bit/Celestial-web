@@ -123,12 +123,15 @@ export default function BigText({ slides }: BigTextProps) {
           )
         })}
         <p className='mt-4 sm:text-3xl text-2xl tracking-normal'>
-          Relieve, Relive, Re-Love!.
+          Relive, Relieve, Relief!.
         </p>
         <p className='mt-6 text-lg font-medium tracking-normal'>
-          Helping your health, so your health helps you staying on track!
+          Helping your health, so your health helps you pull out the best inside
+          you!
           <br></br>
-          Tips! , Guides, Consultation!
+          Working Towards,
+          <br></br>
+          Better Health, For a Better Future!🌌
         </p>
       </div>
     </div>
